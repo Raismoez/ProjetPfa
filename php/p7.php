@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pages.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Ma Maison</title>
+</head>
+<body>
+  
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="../image/Mamaison.png" alt="logo">
+    </a>
+    <nav class="navbar">
+     <a href="index.php" >Acceuil</a>
+      <a href="inscription.php">S'inscrire</a>
+	  <a href="seconnecter.php">Connexion</a>
+	   <a href="Post.php">Poster Votre Annonce</a>
+      <a href="apropos.php">A propos</a>
+     
+    </nav>
+   
+
+   
+  </header>
+    
+        <section class="room-details">
+            <h2 class="e">Un havre de paix vue mer</h2>
+            
+        </section>
+
+        <section class="photo-gallery">
+		<div class="image-container">
+        <img src="../image/havre.jpeg" alt="Image 2">
+        <img src="../image/chambreHavre.jpeg" alt="Image 3">
+        <img src="../image/terassehavre.jpeg"  alt="Image 4">
+        <img src="../image/merhavre.jpeg"  alt="Image 5">
+		</div>
+	
+        </section>
+		<section class="logo">
+        
+        <div class="details">
+            <h1>Un havre de paix vue mer</h1>
+            <p>Description de la chambre et autres détails.</p>
+            <ul>
+                <li>Wifi gratuit</li>
+                <li>Télévision à écran plat</li>
+                <li>Vue panoramique</li>
+               
+            </ul>
+            <p class="price">Prix par nuit: 316Dt</p>
+            <a href="Reser.php"><button>Réserver maintenant</button></a>
+        </div>
+    </section>
+	 <div class="profile">
+        <img src="../image/Mamaison.png" alt="User Profile Image">
+        <h2>Ma Maison</h2>
+    </div>
+
+    <div class="property-details">
+        <h2>Un havre de paix vue mer</h2>
+        <p>Bizerte, Tunisie </p>
+
+        <div class="basic-info">
+            <h3> Logement entier</h3>
+            <ul>
+                <li>Logement entier</li>
+                <li>4 Invités</li>
+                <li> 2 Lits</li>
+            </ul>
+        </div>
+
+        <div class="additional-info">
+            <h3>A propos de cette annonce</h3>
+            <p>Charmante maison à Sounine/Ain Mistir avec une vue fabuleuse sur la mer.
+            Le rez-de-chaussée dispose d'un salon lumineux et aéré..salle à manger qui s'ouvre sur une grand terrasse. 
+            Sale d'eau/douche. 
+            Cuisine équipée ( four,réfrigérateur/congélateur,cafetière, vaisselle...)</p>
+        </div>
+
+        <div class="amenities">
+            <h3>Équipements de base</h3>
+            <ul>
+                <li>Télévision</li>
+                <li>Eau Chaude</li>
+                <li>Climatisation</li>
+                <li>Chauffage</li>
+            </ul>
+        </div>
+
+        <div class="additional-info">
+            <h3>Prix</h3>
+            <p>Personnes supplémentaires: Non</p>
+            <p>Annulation: Strictes</p>
+        </div>
+
+        <div class="additional-info">
+            <h3>Description</h3>
+            <p>Jolie, spacieuse et confortable maison à Sounine/Ain Mestir/Raf Raf/Tunisie avec des vues fabuleuses sur la mer.<br>
+                La maison sur 2 étages pour 4 personnes, S+2 dont 1 lit King Size et 2 lits jumeaux.<br>
+                Toutes nos chambres bénéficient d'une vue mer imprenable depuis le lit et un magnifique lever de soleil.<br>
+                Salle de bain et salle d'eau avec douche et WC<br>
+                Le rez-de-chaussée dispose d'un salon lumineux et aéré, salle à manger qui s'ouvre sur une grande terrasse avec une vue panoramique de 180° sur la mer.<br>
+                Cuisine équipée ( Plaque, réfrigérateur/congélateur, grill pain, cafetière Senseo, bouilloire, vaisselle etc.)..<br>
+                Table et chaises pour manger en plein air.<br>
+                Un style très cocooning dans un cadre reposant et apaisant pour des vacances familiales confortables.</p></br>
+        </div>
+
+        <div class="additional-info">
+            <h3>Accès clients</h3>
+            <p>J'habite à côté, et tout ce dont vous avez besoin, je suis à votre disposition.</p>
+        </div>
+
+        <div class="rules">
+            <h3>Règles de la maison</h3>
+            <ul>
+                <li>Respect du voisinage</li>
+                <li>La maison est NON FUMEUR.</li>
+                <li>Pas de nuisance sonore</li>
+                <li>Check-In: 14:00 | Check-Out: 12:00</li>
+            </ul>
+        </div>
+
+        <div class="additional-info">
+            <h3>Dispositifs de sécurité</h3>
+            <p>Détecteur de fumée</p>
+        </div>
+    </div>
+    
+
+   <footer>
+
+                    <div class="footer-content">
+                    <ul class="socials">
+                            <i class="bi bi-facebook"></i>
+                        
+                          <li><a href="https://www.facebook.com/">Facebook</a></li>
+                          <i class="bi bi-instagram"></i>
+
+                          
+                          <li><a href="https://www.instagram.com/">Instagram</a></li>
+                            <i class="bi bi-geo-alt" ></i>
+                            
+                            <li><a href="#">ESEN, Technopole La Manouba, CP 2010</a></li>
+                        <li>
+                      
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    
+                    <p>Designed by:Rais Moez/Nabli Youssef		Groupe 1			</p>
+                    <p> &copy;2022-2023 </p>
+                    
+                </div>
+            </footer>
+
+</body>
+</html>

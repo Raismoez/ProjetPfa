@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Belleza', sans-serif;
+
+    
+}
+
+	
+.header .logo img {
+    height: rem;
+    
+}
+
+.header {
+    background-color: #4F94D4 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin: 2rem 2%;
+    border-radius: 30rem;
+    box-shadow: 0 0 17px -2px black;
+    position: sticky;
+	top: 0;
+   
+}
+
+.header .navbar a { 
+    background: center;
+    margin: 0 4rem;
+    font-size: 1.6rem;
+    border-bottom: 0.3rem solid transparent;
+
+}
+
+.header .navbar .active,
+.header .navbar a:hover {
+    border-color:#fdfbfb75;
+    padding-bottom: 0.3rem;
+}
+
+
+.b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 140px;
+
+	
+}
+
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+	
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+a:hover, a:active {
+    font-size: larger;
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+
+
+
+.home{             
+   min-height: 100vh;
+   background: url("../image/1.gif") no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin-top: -13rem;
+   display: flex;
+   align-items: center;         
+   }
+   
+
+.home .content {
+    max-width: 60rem;
+}
+
+.home .content h3 {
+    font-size: 3.5rem;
+    color: aliceblue;
+	padding:20px;
+}
+
+.home .content p {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+    color: aliceblue;
+
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+footer {
+    background-color:#4F94D4 ;
+    color:white ;
+    text-align: center;
+    padding: 10px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+.socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1px  3px 0;
+      }
+.socials li{
+        margin: 0 10px;
+      }
+.socials a{
+        text-decoration: none;
+        color: white;
+      }
+.socials a i{
+        font-size: 1.1rem;
+      }
+
+	

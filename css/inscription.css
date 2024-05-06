@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Belleza', sans-serif;
+}
+
+.header .logo img {
+    height: 8rem;
+    
+}
+
+.header {
+    background-color: #4F94D4 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin: 2rem 2%;
+    border-radius: 30rem;
+    box-shadow: 0 0 17px -2px black;
+    
+   
+}
+
+.header .navbar a { 
+    background: center;
+    margin: 0 4rem;
+    font-size: 1.6rem;
+    border-bottom: 0.3rem solid transparent;
+
+}
+
+.header .navbar .active,
+.header .navbar a:hover {
+    border-color:white;
+    padding-bottom: 0.3rem;
+}
+
+.header #menu-btn {
+    display: none;
+}
+
+.b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 140px;
+
+	
+}
+
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+	
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+a:hover, a:active {
+    font-size: larger;
+    color: black;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+  }
+.container {
+    padding: 6px;
+    
+  }
+
+ h1 {
+    font-size: 5vw;
+    color: #4F94D4;
+    font-family: serif;
+    letter-spacing: 0.01em;
+}
+
+  
+form{
+padding:30px;
+}
+
+input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0 ;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+
+	  
+input[type=email], input[type=password] {
+    width: 25%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+  }
+  
+button {
+    padding: 9px 25px;
+    background-color:#4F94D4;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+footer {
+    background-color: #4F94D4;
+    color: #0f0e0e;
+    text-align: center;
+    padding: 10px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+.socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1px  3px 0;
+      }
+      .socials li{
+        margin: 0 10px;
+      }
+      .socials a{
+        text-decoration: none;
+        color: rgb(1, 5, 8);
+      }
+      .socials a i{
+        font-size: 1.1rem;
+      }
+
+     
+      
+

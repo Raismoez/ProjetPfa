@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Belleza', sans-serif;
+
+    
+}
+
+	
+.header .logo img {
+    height: rem;
+    
+}
+
+.header {
+    background-color: #4F94D4 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin: 2rem 2%;
+    border-radius: 30rem;
+    box-shadow: 0 0 17px -2px black;
+    position: sticky;
+	
+   
+}
+
+.header .navbar a { 
+    background: center;
+    margin: 0 4rem;
+    font-size: 1.6rem;
+    border-bottom: 0.3rem solid transparent;
+
+}
+
+.header .navbar .active,
+.header .navbar a:hover {
+    border-color:#fdfbfb75;
+    padding-bottom: 0.3rem;
+}
+
+
+.b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 140px;
+
+	
+}
+
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+	
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+a:hover, a:active {
+    font-size: larger;
+    color: black;
+}
+       
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+			
+        }
+
+        button[type="submit"] {
+            background-color: #4F94D4;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+  .m {
+	
+	color: #4F94D4;
+	
+}     
+  
+footer {
+    background-color:#4F94D4 ;
+    color:white ;
+    text-align: center;
+    padding: 10px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+.socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1px  3px 0;
+      }
+.socials li{
+        margin: 0 10px;
+      }
+.socials a{
+        text-decoration: none;
+        color: white;
+      }
+.socials a i{
+        font-size: 1.1rem;
+      }

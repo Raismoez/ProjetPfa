@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Belleza', sans-serif;
+    background-image: url("../image/reservation.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 140vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+a:visited {
+    color: purpol;
+}
+
+a:hover, a:active {
+    font-size: larger;
+    
+}
+
+.resform {
+    width: 60%;
+    margin: 20px auto;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.label {
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.firstname {
+    width: 45%;
+    margin: 10px;
+}
+
+.lastname {
+    width: 45%;
+    margin: 10px;
+}
+
+.dat,
+.num,
+.dur,
+.cmtr {
+    width: 100%;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="../css/reservationadmin.css">
+</head>
+<body>
+
+
+<div class="container">
+    <h2>Gestion des Réservations</h2>
+
+    <!-- Formulaire pour ajouter/modifier une réservation -->
+    <form action="adminReser.php" method="post" id="reservationForm">
+        <input type="hidden" name="id" id="id">
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom" id="nom" required>
+        <label for="prénom">Prénom:</label>
+        <input type="text" name="prénom" id="prénom" required>
+        <label for="cin">CIN:</label>
+        <input type="text" name="cin" id="cin" required>
+        <label for="date">Date de réservation:</label>
+        <input type="date" name="date" id="date" required>
+        <label for="Nombrearéserver">Nombre à réserver:</label>
+        <input type="number" name="Nombrearéserver" id="Nombrearéserver" required>
+        <label for="Dureé">Durée:</label>
+        <input type="text" name="Dureé" id="Dureé" required>
+        <label for="idr">ID:</label>
+        <input type="text" name="idr" id="idr" required>
+        <label for="Commentaires">Commentaires:</label>
+        <input type="text" name="Commentaires" id="Commentaires">
+        <button type="submit" name="add" id="addBtn">Ajouter</button>
+        <button type="submit" name="update" id="updateBtn" style="display:none;">Mettre à jour</button>
+        <button type="button" onclick="closeForm()">Annuler</button>
+    </form>
+
+    <!-- Tableau des réservations -->
+    <table>
+        <thead>
+		<tbody>
+    <?php foreach ($reservations as $reservation): ?>
+        <tr>
+            <td><?= $reservation['nom'] ?></td>
+            <td><?= $reservation['prénom'] ?></td>
+            <td><?= $reservation['cin'] ?></td>
+            <td><?= $reservation['date_reservation'] ?></td>
+            <td><?= $reservation['nombre_reserver'] ?></td>
+            <td><?= $reservation['duree'] ?></td>
+            <td><?= $reservation['idr'] ?></td>
+            <td><?= $reservation['commentaires'] ?></td>
+            <td>
+                <a href="admin.php?edit=<?= $reservation['id'] ?>" class="edit">Modifier</a>
+                <a href="adminReser.php?delete=<?= $reservation['id'] ?>" class="delete" onclick="return confirm('Voulez-vous vraiment supprimer cette réservation ?')">Supprimer</a>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+</tbody>
+
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>CIN</th>
+                <th>Date</th>
+                <th>Nombre à réserver</th>
+                <th>Durée</th>
+                <th>ID</th>
+                <th>Commentaires</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+      
+    </table>
+</div>
+</body>
+</html>
